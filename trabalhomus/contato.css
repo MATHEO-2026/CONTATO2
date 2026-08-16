@@ -1,11 +1,14 @@
 @font-face {
-    font-family: fantasy;
+    font-family: 'AngelicWar';
     src: url(KiwiSoda.ttf);
+}
+@font-face {
+    font-family: 'BASE';
+    src: url(AlfaSlabOne-Regular.ttf)
 }
 body{
 
-    font-family: fantasy;
-    background-image: url(GATOS/e2f93350ea8e350a11b6ed1d0db2eacb.jpg);
+    background-image: url(GATOS/ca3d93329d748249a7b0b67a176b1579.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,11 +24,13 @@ body{
    padding: 1.5rem 1.5rem;
    margin-top: 2rem;
    color: white;
+   font-family: BASE;
 
 }
 .linha h4{
 
     justify-self: center;
+    font-family: AngelicWar;
 
 }
 .topo{
@@ -35,7 +40,9 @@ body{
 }
 .topo .info{
 
-    justify-self: start;
+    justify-self: center;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
 
 }
 .topo .img{
@@ -51,7 +58,9 @@ body{
 }
 .meio .info{
 
-    justify-self: end;
+    justify-self: center;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
 
 }
 .meio .img{
@@ -67,7 +76,10 @@ body{
 }
 .baixo .info{
 
-    justify-self: start;
+    justify-self: center;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+
 
 }
 .baixo .img{
