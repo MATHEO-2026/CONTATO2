@@ -1,0 +1,97 @@
+@font-face {
+    font-family: fantasy;
+    src: url(KiwiSoda.ttf);
+}
+body{
+
+    font-family: fantasy;
+    background-image: url(GATOS/e2f93350ea8e350a11b6ed1d0db2eacb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.linha{
+
+    display: grid;
+    align-items: center;
+    background-color: rgb(34, 30, 30);
+    border-radius: 5rem;
+   padding: 1.5rem 1.5rem;
+   margin-top: 2rem;
+   color: white;
+
+}
+.linha h4{
+
+    justify-self: center;
+
+}
+.topo{
+
+    grid-template-columns: 1fr 2fr;
+
+}
+.topo .info{
+
+    justify-self: start;
+
+}
+.topo .img{
+
+    justify-self: start;
+    margin-left: 1rem;
+
+}
+.meio{
+
+    grid-template-columns: 2fr 1fr;
+
+}
+.meio .info{
+
+    justify-self: end;
+
+}
+.meio .img{
+
+    justify-self: end;
+    margin-right: 1rem;
+
+}
+.baixo{
+
+    grid-template-columns: 1fr 2fr;
+
+}
+.baixo .info{
+
+    justify-self: start;
+
+}
+.baixo .img{
+
+    justify-self: start;
+    margin-left: 1rem;
+
+}
+.img img{
+
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50rem;
+
+}
+.linha a{
+
+    text-decoration: none;
+    color: white;
+
+}
+.linha a:hover{
+
+    text-decoration: underline;
+    color: rgb(89, 89, 128);
+
+}
